@@ -70,7 +70,7 @@ double = ()=>{
             <h1> {this.state.count}</h1>
             <button type="button" onClick={this.clear}>clear</button>
             <button type="button" onClick={this.increment}>Increment</button>
-            <button type="button" onClick={this.increment}>Decrement</button>
+            <button type="button" onClick={this.decrement}>Decrement</button>
             <button type="button" onClick={this.double}>{this.state.doubleCount ? 'Double Count' : 'Single Count'}</button>
 
         </div>
